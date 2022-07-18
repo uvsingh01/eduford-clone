@@ -1,0 +1,130 @@
+body{
+    font-family:'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav{
+    margin:0% 6%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    text-align: left;
+    padding-bottom: 100px;
+    padding: 1% 0%;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+    margin: 0% 1%;
+    font-size: 2vh;
+}
+.p{
+    padding: 2% 3% 5% 3%;
+    font-weight:lighter;
+}
+.links ul{
+    display: grid;
+    grid-template-columns: repeat(4,20%);
+}
+.header{
+    height: 50vh;
+    text-align: center;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./photos/background.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    color: white;
+}
+.logo img{
+    height:50px;
+}
+.textbox{
+    padding:10% 3% 10% 3%;
+    font-size: 4vh;
+    text-align: center;
+}
+.s{
+    margin:0px 6%;
+}
+.g{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0% 3%;
+    padding-bottom: 10%;
+}
+.g2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0% 3%;
+    padding: 6% 2%;
+}
+.foot h3{
+    margin-bottom: 3%;
+}
+.img{
+    width: 100%;
+    border-radius:10px;
+}
+.an{
+    text-decoration: none;
+    padding:2% ;
+    border: 1px solid red;
+    margin-top: 5%;
+}
+.post{
+    padding: 2%;
+    background-color: red;
+    color: white;
+}
+input, textarea, button{
+    font-family: inherit;
+    width: 80%;
+}
+.ng{
+    grid-template-columns: unset;
+}
+.color{
+    background-color: #D6EFED;
+}
+.t{
+    padding:0% 5%;
+}  
+@media(max-width: 470px){
+    .textbox{
+        font-size: 7px;
+    }
+    .textbox h1{
+        font-size: 3em;
+    }
+    ul a{
+        font-size: 0.6em;
+    }
+    .logo img{
+        height:2em;
+    }
+    .foot{
+        padding-top: 40px;
+    }
+    .foot h3{
+        padding-top: 2%;
+    }
+}
+@media(max-width: 850px){
+    .g, nav{
+        grid-template-columns: unset;
+        gap: 3% 0%;
+        text-align: center;
+        padding: 4%;
+    }
+    .s{
+        padding:6%;
+    }
+    .g2{
+        grid-template-columns: unset;
+        gap: 3%;
+    }
+    body p{
+        font-size: 60%;
+    }
+}
+
