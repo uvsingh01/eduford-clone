@@ -39,7 +39,7 @@ ul a{
     text-decoration: none;
     color: white;
     margin: 0% 1%;
-    font-size: 2vh;
+    font-size: 1.2vw;
 }
 .button{
     border: 1px solid white;
@@ -160,7 +160,7 @@ ul a{
         font-size: 5vh;
     }
     ul a{
-        font-size: 0.6em;
+        font-size: 3vw !important;
     }
     .logo img{
         height:2em;
@@ -200,6 +200,9 @@ ul a{
     }
     .s{
         padding:6%;
+    }
+    ul a{
+        font-size: 2vh ;
     }
 }
 
